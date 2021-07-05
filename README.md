@@ -6,7 +6,7 @@
 개발환경<hr>
 운영체제 <br>
 <img src = "https://user-images.githubusercontent.com/15045457/124413093-f1fc4800-dd8a-11eb-8087-e72fb646ef73.png" width="200" height="200">
-<img src = "https://user-images.githubusercontent.com/15045457/124413104-f4f73880-dd8a-11eb-8ba1-0270194598c3.jpg" width="200" height="200">
+<img src = "https://user-images.githubusercontent.com/15045457/124413105-f4f73880-dd8a-11eb-92de-d0d040ea493f.png" width="200" height="200">
 
 <br>
 
