@@ -22,6 +22,11 @@
 <br>
 
 Server :<br>
-<img src= "https://user-images.githubusercontent.com/15045457/124413478-b01fd180-dd8b-11eb-81ac-88ae8e023e21.png" width="100" height="100"><br>
+<img src= "https://user-images.githubusercontent.com/15045457/124413478-b01fd180-dd8b-11eb-81ac-88ae8e023e21.png" width="100" height="100">
 
-Language : Java, Servlet, Jsp, Http5, CSS3, Ajax, Javascript<hr>
+<br>
+
+Language :<br>
+<img src= "https://user-images.githubusercontent.com/15045457/124413541-d6457180-dd8b-11eb-95ca-0be96dc9fb9f.jpg" width="100" height="100">
+<img src= "https://user-images.githubusercontent.com/15045457/124413481-b1e99500-dd8b-11eb-8f35-d22ccf09a1fd.png" width="100" height="100">
+Java, Servlet, Jsp, Http5, CSS3, Ajax, Javascript<hr>
