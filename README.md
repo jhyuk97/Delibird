@@ -3,3 +3,13 @@
 프로젝트 진행기간 2020.01.03 ~ 2020.10.13
 <hr>
 
+개발환경
+운영체제 : Windows, Android<br>
+
+개발도구 : android studio, eclipse<br>
+
+데이터베이스 : MSSQL<br>
+
+Server : Apache Tomcat 9.0<br>
+
+Language : Java, Servlet, Jsp, Http5, CSS3, Ajax, Javascript<hr>
