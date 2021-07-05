@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/riename"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="ㅁㅁㅁ"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" 라이더 님 "
+            android:textSize="25dp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="음식점이름"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/foname"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="normal"></TextView>
+
+
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="음식점위치"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/foodkkk"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="normal"></TextView>
+
+
+
+
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="배달목적지"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/rikkk"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="normal"></TextView>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:text="거리"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/tell_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="거리"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/idyy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="#4E8DF5"
+            android:gravity="center"
+            android:text="Y"
+
+            android:textSize="30dp"></Button>
+
+        <Button
+            android:id="@+id/tellN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#4E8DF5"
+            android:gravity="center"
+            android:text="N"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="187dp"
+        android:id="@+id/tellnew"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="#4E8DF5"
+        android:text="현재 배달 보기  "
+        android:textColor="#ffffff"></Button>
+
+    <Button
+        android:id="@+id/Current1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="#4E8DF5"
+        android:text="호출 현황 보기 "
+        android:textColor="#ffffff"></Button>
+</LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+

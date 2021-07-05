@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="597dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:src="@drawable/io">
+
+        </ImageView>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="*교육후 대여 가능 "
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="*신분증 면허증 통장사본 지참 "
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="*오토바이 -> 대여 내역 확인 "
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="*본사 방문 후 신청서 작성 "
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp">
+
+        </TextView>
+        <Button
+
+            android:layout_margin="10dp"
+            android:background="#4E8DF5"
+
+            android:textColor="#ffffff"
+            android:id="@+id/otUP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_weight="5"
+            android:text="신청하기"></Button>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp">
+
+        </TextView>
+        <Button
+            android:background="#4E8DF5"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:id="@+id/out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_weight="5"
+            android:text="종료하기"/>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp">
+
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+

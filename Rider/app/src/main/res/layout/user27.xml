@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+        <TextView
+
+            android:id="@+id/inquiry_tit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="나의 문의 내역 "
+            android:textSize="30dp"></TextView>
+
+
+    <ListView
+        android:id="@+id/inquiry_listview"
+        android:layout_width="match_parent"
+        android:layout_height="463dp"></ListView>
+
+        <Button
+            android:id="@+id/inquiry_wkr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="#4E8DF5"
+            android:text="글쓰기"
+            android:textColor="#ffffff">
+
+        </Button>
+
+</LinearLayout>
+

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User20">
+
+
+
+
+    <EditText
+        android:id="@+id/CheckPw"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/EndPh"
+        app:layout_constraintStart_toEndOf="@+id/textView18" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="64dp"
+        android:text="Password"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ReEmail"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/user20_spinner"
+        app:layout_constraintStart_toEndOf="@+id/textView22" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="36dp"
+        android:text="Password 확인"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/OgPw"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/ChanPw"
+        app:layout_constraintStart_toEndOf="@+id/textView16" />
+
+    <EditText
+        android:id="@+id/FrPh"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/ReEmail"
+        app:layout_constraintStart_toEndOf="@+id/textView19" />
+
+    <EditText
+        android:id="@+id/EndPh"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/ReEmail"
+        app:layout_constraintStart_toEndOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="──"
+        app:layout_constraintBottom_toTopOf="@+id/ReEmail"
+        app:layout_constraintStart_toEndOf="@+id/SePh" />
+
+    <EditText
+        android:id="@+id/SePh"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/ReEmail"
+        app:layout_constraintStart_toEndOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="──"
+        app:layout_constraintBottom_toTopOf="@+id/ReEmail"
+        app:layout_constraintStart_toEndOf="@+id/FrPh" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="28dp"
+        android:text="Tel."
+        app:layout_constraintBottom_toTopOf="@+id/textView22"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="40dp"
+        android:text="ID "
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ChanPw"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/CheckPw"
+        app:layout_constraintStart_toEndOf="@+id/textView17" />
+
+    <Button
+        android:background="#4E8DF5"
+android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:id="@+id/user20_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="40dp"
+        android:text="취소"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="56dp"
+        android:text="Language"
+        app:layout_constraintBottom_toTopOf="@+id/ChangeClear"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="36dp"
+        android:text="변경할 Password"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/subID"
+        android:layout_width="130dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="24dp"
+        android:text="아이디"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/OgPw"
+        app:layout_constraintStart_toEndOf="@+id/textView15" />
+
+    <Spinner
+        android:id="@+id/user20_spinner"
+        android:layout_width="185dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="52dp"
+        android:entries="@array/language"
+        app:layout_constraintBottom_toTopOf="@+id/user20_cancel"
+        app:layout_constraintStart_toEndOf="@+id/textView23" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="44dp"
+        android:text="E-Mail"
+        app:layout_constraintBottom_toTopOf="@+id/textView23"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:background="#4E8DF5"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:id="@+id/ChangeClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="40dp"
+        android:text="수정완료"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/rodlswjdqhtnwjd"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="개인 정보 수정"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/subID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

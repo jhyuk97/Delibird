@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:id="@+id/review_management_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/user27_1"
+                    android:layout_width="207dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="문의번호"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:id="@+id/user27_2"
+                    android:layout_width="171dp"
+                    android:layout_height="wrap_content"
+                    android:text="_____"
+                    android:textSize="20dp"></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/user27_3"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="작성자 ID  "
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+
+                    android:id="@+id/user27_4"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="_____"
+                    android:textSize="20dp"></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="212dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="분류"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:id="@+id/user27_12"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="_____"
+                    android:textSize="20dp"></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/user27_5"
+                    android:layout_width="211dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="제목 "
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:id="@+id/user27_6"
+
+                    android:layout_width="156dp"
+                    android:layout_height="wrap_content"
+                    android:text="_____"
+                    android:textSize="20dp"></TextView>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/user27_7"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="내용"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:id="@+id/user27_8"
+                    android:background="#ffffff"
+                    android:gravity="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="20dp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/user27_9"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="답변내용"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:id="@+id/user27_10"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:background="#ffffff"
+                    android:textSize="20dp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/user27_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="2"
+                    android:background="#4E8DF5"
+                    android:text="삭제하기"
+                    android:textColor="#ffffff">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

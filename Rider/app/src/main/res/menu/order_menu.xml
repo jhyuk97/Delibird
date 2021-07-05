@@ -1,0 +1,40 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:title=""
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/money"
+        android:title="급여조회"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/Riderreference"
+        android:title="배달이력조회"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/cxchange"
+        android:title="환전하기"
+        app:showAsAction="ifRoom"/>
+
+
+
+    <item android:id="@+id/datechange"
+        android:title="정보수정"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/motorcycle"
+        android:title="오토바이정보"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/out"
+        android:title="종료하기"
+        app:showAsAction="ifRoom"/>
+
+</menu>

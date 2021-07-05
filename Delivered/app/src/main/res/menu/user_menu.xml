@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <tabs>
+
+        <tab
+            android:icon="@drawable/re2"
+            id="@+id/tab_review"
+            title="리뷰순" />
+
+        <tab
+            android:icon="@drawable/gr2"
+            id="@+id/tab_grade"
+            title="평점순"/>
+
+    </tabs>
+
+
+</PreferenceScreen>

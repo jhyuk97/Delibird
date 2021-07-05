@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TableRow>
+
+
+            <TextView
+android:layout_weight="1"
+                android:id="@+id/guswowksdor1"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="잔액 "
+
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/moneychor"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+android:gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/guswowksdor2"
+                android:textStyle="bold"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:text="￦"
+                android:textSize="20dp"></TextView>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/user05_ph"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="#4E8DF5"
+            android:text="핸드폰 결제"></CheckBox>
+
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/user05_dmsgod"
+            android:buttonTint="#4E8DF5"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:text="은행 결제"></CheckBox>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/user05_anstkd"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="#4E8DF5"
+            android:text="카드 결제"></CheckBox>
+
+        <CheckBox
+            android:layout_weight="1"
+            android:buttonTint="#4E8DF5"
+            android:id="@+id/user05_zkzkdh"
+            android:layout_width="214dp"
+            android:layout_height="wrap_content"
+            android:text="카카오페이 결제"></CheckBox>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:textColor="#4E8DF5"
+            android:id="@+id/money5"
+            android:layout_width="163dp"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="50000"
+            android:textSize="30dp"></Button>
+
+
+        <Button
+            android:textColor="#4E8DF5"
+            android:layout_weight="1"
+            android:id="@+id/money3"
+            android:layout_width="171dp"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="30000"
+            android:textSize="30dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/money1"
+            android:layout_width="165dp"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="10000"
+            android:textColor="#4E8DF5"
+            android:textSize="30dp"></Button>
+
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/money50"
+            android:layout_width="171dp"
+            android:layout_height="120dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="5000"
+            android:textColor="#4E8DF5"
+            android:textSize="30dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/dlqfurgkrl"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="입력하기"
+
+            android:textSize="20dp"></TextView>
+
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/moneyF"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="37dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="￦"
+            android:textSize="25dp"></TextView>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/moneyFF"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="UP"
+            android:textColor="#4E8DF5"
+            android:textSize="20dp"></Button>
+    </LinearLayout>
+
+</LinearLayout>

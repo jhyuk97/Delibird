@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#00ff0000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="499dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/Moneystatistics"
+            android:layout_width="match_parent"
+            android:layout_height="476dp"
+            android:focusable="false">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:background="#00ff0000"
+            android:layout_width="214dp"
+            android:layout_height="115dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@android:color/black"
+
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="판매수"
+                android:textSize="20dp"></TextView>
+
+            <TextView    android:background="#00ff0000"
+                android:gravity="center"
+                android:id="@+id/vksaotn"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text=""
+                android:textSize="20dp"></TextView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="#00ff0000"
+            android:layout_width="190dp"
+            android:layout_height="117dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@android:color/black"
+
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="184dp"
+                android:layout_height="wrap_content"
+                android:text="총액"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:background="#00ff0000"
+                android:gravity="center"
+                android:id="@+id/chddor"
+                android:layout_width="184dp"
+                android:layout_height="70dp"
+                android:text=""
+                android:textSize="20dp"></TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/snrn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="당신은 누구십니까"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"/>
+
+
+    <Button
+        android:id="@+id/btn_rider_mode"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:background="#4E8DF5"
+        android:text="라이더"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:background="#4E8DF5"
+        android:textColor="#ffffff"
+        android:id="@+id/btn_user_mode"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="사용자"
+        android:layout_margin="20dp"/>
+
+
+</LinearLayout>

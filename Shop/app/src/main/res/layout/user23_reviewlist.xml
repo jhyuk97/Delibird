@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <!-- <TextView
+            android:id="@+id/user23_MarketName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="가게 이름(3.5/5.0)"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_find"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+
+            android:background="#00000000"
+            android:layout_marginLeft="140dp"/>
+
+        <Button
+            android:id="@+id/btn_shopping_bag"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:layout_marginTop="10dp"
+                >
+                <TableRow>
+                    <Button
+                        android:id="@+id/btn_call_order"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:text="전화주문"
+                        />
+                    <Button
+                        android:id="@+id/btn_pick"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:text="☆즐겨찾기"/>
+                    <Button
+                        android:id="@+id/btn_share"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:text="공유하기"/>
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:id="@+id/tableLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:layout_marginTop="10dp"
+                >
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="배달 비용"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2000원"
+                        android:textAlignment="textEnd"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="10dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="최소주문금액"
+                        android:textSize="20dp"
+
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="textEnd"
+                        android:text="13000원"
+                        android:textSize="20dp"
+
+                        android:layout_marginLeft="10dp"/>
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:id="@+id/tableLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:layout_marginTop="10dp"
+                >
+                <TableRow>
+                    <Button
+                        android:id="@+id/user23_gomenu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:onClick="clickHandler"
+                        android:text="메뉴" />
+                    <Button
+                        android:id="@+id/user23_goReview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:onClick="clickHandler"
+                        android:text="리뷰" />
+
+                    <Button
+                        android:id="@+id/user23_goMarket"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:onClick="clickHandler"
+                        android:text="가게 정보" />
+                </TableRow>
+            </TableLayout>
+            <Button
+                android:id="@+id/btn_sort01"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+
+                android:background="#00000000"
+                /> -->
+        <ListView
+            android:id="@+id/user23_reviewList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="호출번호"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/mjghdfsdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="s"
+            android:textSize="20dp"></TextView>
+
+
+    </LinearLayout>
+<LinearLayout
+android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="음식점이름"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+
+        android:id="@+id/mknamerer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ㅁㅁㅁㅁ"
+        android:textSize="20dp"></TextView>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="음식점위치"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/cccccc"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="ㄴ"
+            android:textSize="20dp"></TextView>
+
+
+    </LinearLayout>
+
+    <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="배달목적지">
+        </TextView>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/ddasdas"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="s"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/ddassddas"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="s"
+        android:textSize="20dp"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="고객번호:"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/cvx"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/mapfood"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:background="#4E8DF5"
+
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="음식점지도"
+
+            android:textSize="20dp"></Button>
+
+
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/maphome"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="고객지도"
+            android:background="#4E8DF5"
+
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:layout_margin="10dp"
+            android:id="@+id/foodsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="#4E8DF5"
+
+            android:textColor="#ffffff"
+            android:layout_weight="5"
+            android:text="수령완료"></Button>
+        <Button
+            android:background="#4E8DF5"
+
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"
+            android:id="@+id/coolsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="5"
+            android:text="배달완료"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+

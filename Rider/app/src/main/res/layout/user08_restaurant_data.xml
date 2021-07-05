@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:layout_marginTop="10dp"
+        >
+        <TableRow>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_call_order"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="#4E8DF5"
+                android:text="전화주문"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_pick"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="#4E8DF5"
+                android:text="즐겨찾기"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_weight="1"
+                android:background="#4E8DF5"
+                android:layout_margin="5dp"
+                android:textColor="#ffffff"
+                android:id="@+id/btn_share"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="공유하기" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_marginTop="10dp"
+        >
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/qoekfql"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="배달 비용"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2000￦"
+            android:textAlignment="textEnd"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"/>
+    </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/chlthwnansrmador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최소주문금액"
+                android:textSize="15dp"
+
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:text="13000￦"
+                android:textSize="15dp"
+
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_marginTop="10dp"
+        >
+        <TableRow>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/goMenu"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="#4E8DF5"
+                android:onClick="clickHandler"
+                android:text="메뉴"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/goReview"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="#4E8DF5"
+                android:onClick="clickHandler"
+                android:text="리뷰"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/goMarket"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="#4E8DF5"
+                android:onClick="clickHandler"
+                android:text="정보"
+                android:textColor="#ffffff" />
+        </TableRow>
+    </TableLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:id="@+id/user08_frame"
+                android:name="com.recipes4dev.examples.customlistfragmentexample1.CustomListFragment"
+                android:layout_width="match_parent"
+                android:layout_height="541dp">
+                <!--<ListView
+                android:id="@+id/menuList"
+                android:layout_width="match_parent"
+                android:layout_height="451dp"></ListView> -->
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+</LinearLayout>

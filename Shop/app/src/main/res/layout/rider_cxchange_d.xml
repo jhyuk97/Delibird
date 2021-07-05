@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cndArea"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="부분 환전하기"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="77dp"
+                android:layout_height="match_parent"
+                android:text="급여번호"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/cxchangeDnumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"></View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="77dp"
+                android:layout_height="match_parent"
+                android:text="금액"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/cxchangeDmo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"></View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:text="날짜"></TextView>
+
+            <TextView
+                android:id="@+id/cxchangeDday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="임시"></TextView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"></View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="79dp"
+                android:layout_height="match_parent"
+                android:text="시간"></TextView>
+
+            <TextView
+                android:id="@+id/cxchangeDtime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="임시금액"></TextView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"></View>
+    </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="93dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"></LinearLayout>
+
+            <Button
+                android:textColor="#ffffff"
+                android:background="#4E8DF5"
+                android:id="@+id/cxchangeDch"
+                android:layout_width="219dp"
+                android:layout_height="72dp"
+                android:text="환전하기"></Button>
+        </LinearLayout>
+
+</LinearLayout>

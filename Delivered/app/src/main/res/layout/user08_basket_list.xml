@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/basket_MenuName"
+            android:layout_width="400dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:text="메뉴이름" />
+
+        <TextView
+            android:id="@+id/DeleteItemOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:gravity="center_horizontal"
+            android:text="(-)" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/basket_MenuName_more"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/basket_money"
+
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="금액" />
+
+        <Button
+            android:id="@+id/basket_list_mi"
+            android:layout_width="22dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#4E8DF5"
+            android:text="-"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/basket_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="갯수" />
+
+        <Button
+            android:textColor="#ffffff"
+            android:background="#4E8DF5"
+            android:id="@+id/basket_list_plus"
+            android:layout_width="11dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+" />
+
+    </LinearLayout>
+
+</LinearLayout>

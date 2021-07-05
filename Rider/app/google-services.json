@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "163675144056",
+    "firebase_url": "https://delibird-5f70a.firebaseio.com",
+    "project_id": "delibird-5f70a",
+    "storage_bucket": "delibird-5f70a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163675144056:android:cc4a89c396f97d9ffc128d",
+        "android_client_info": {
+          "package_name": "com.example.Shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163675144056-kquocijv0k9q5gdgg7p05tkll56uugks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxiglhP8sa-zqMshNhIrtTCoQlU6ac22g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163675144056-kquocijv0k9q5gdgg7p05tkll56uugks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

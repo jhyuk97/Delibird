@@ -1,0 +1,33 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item
+        android:title=""
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/ceore"
+        android:title="리뷰보기"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/ceocall"
+        android:title="배달현황"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/ceoday"
+        android:title="오늘의 매출"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/ceocloo"
+        android:title="영업종료"
+        app:showAsAction="ifRoom"/>
+
+
+
+</menu>

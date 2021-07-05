@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="환경설정"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="464dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:text="모든 알림 울리기" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:text="주문시 알림" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+
+            android:text="리뷰 작성 댓글 알림" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+
+            android:text="리뷰 '도움됐어요' 알림" />
+
+        <Spinner
+            android:id="@+id/user17_spinner"
+            android:layout_width="235dp"
+            android:layout_height="47dp"
+            android:entries="@array/language"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <Button
+            android:background="#4E8DF5"
+
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="확인" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <Button
+            android:background="#4E8DF5"
+
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="닫기" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

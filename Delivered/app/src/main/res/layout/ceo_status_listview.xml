@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="center_vertical"
+
+    android:background="@android:color/white">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="배송지"
+            android:textSize="15sp"
+
+            android:textColor="@android:color/black"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Status22"
+            android:layout_width="92dp"
+            android:layout_height="126dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="content"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="13dp"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="메뉴"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Status32"
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="content"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="13sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="금액"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Status52"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="content"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="13sp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="현재상황"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Status42"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="content"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="13sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

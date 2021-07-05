@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="Delibird">
+                
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="json-simple-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Delibird/WebContent/WEB-INF/lib/json-simple-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json-lib-2.4-jdk15.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Delibird/WebContent/WEB-INF/lib/json-lib-2.4-jdk15.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang-2.4-1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Delibird/WebContent/WEB-INF/json/commons-lang-2.4-1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ezmorph-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Delibird/WebContent/WEB-INF/json/ezmorph-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-beanutils-1.8.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Delibird/WebContent/WEB-INF/json/commons-beanutils-1.8.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.2.1-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Delibird/WebContent/WEB-INF/json/commons-collections-3.2.1-1.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1-api.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Delibird/WebContent/WEB-INF/json/commons-logging-1.1.1-api.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="Delibird"/>
+                
+        <property name="java-output-path" value="/Delibird/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:name=".global"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="c03b1687232ba8da59e9d94f3234a796" />
+
+
+        <activity android:name=".MainLogo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".app_login"></activity>
+        <activity android:name=".Language"></activity>
+        <activity android:name=".tells" />
+        <activity android:name=".ceo_reception_esc" />
+        <activity android:name=".Rider_cxchange" />
+        <activity android:name=".ceo_call_rider" />
+        <activity android:name=".Rider_cxchange_d" />
+        <activity android:name=".SearchAddress" />
+        <activity android:name=".current" />
+        <activity android:name=".testtt" />
+        <activity android:name=".ing"></activity>
+        <activity android:name=".User05_money" />
+        <activity android:name=".maphome"></activity>
+        <activity android:name=".ridar_member" />
+        <activity android:name=".mapfood"></activity> <!-- 메뉴바 -->
+        <activity android:name=".datechange" />
+        <activity android:name=".ceo_review_Answer" />
+        <activity android:name=".Riderreference" />
+        <activity android:name=".money" />
+        <activity android:name=".motorcycle" />
+        <activity android:name=".User13_kfood" /> <!-- 오토바이 대여 -->
+        <activity android:name=".rental_motorcycle" /> <!-- 수연이꺼 & 민호 -->
+        <activity android:name=".app_choice" />
+        <activity android:name=".app_signup" />
+        <activity android:name=".app_find_id_passwd" />
+        <activity android:name=".ceo_reception_check" />
+        <activity android:name=".ceo_delivery_completed" />
+        <activity android:name=".ceo_review" />
+        <activity android:name=".ceo_Main" />
+        <activity android:name=".Rider_Main" />
+        <activity android:name=".tell" />
+        <activity android:name="ceo_money_stat"></activity>
+        <activity android:name=".ceo_Status"></activity>
+        <!--
+    <activity android:name=".app_login"></activity>
+   <activity android:name=".MapsActivity"></activity>
+        -->
+        <activity android:name=".user05_Main" />
+        <activity android:name=".User12_MainActivity" />
+        <activity android:name=".user_add_setting" />
+        <activity android:name=".user06_mydata" />
+        <activity android:name=".user07_restaurant_listview" />
+        <activity android:name=".user_list_set" />
+        <activity android:name=".user08_restaurant_data" />
+        <activity android:name=".user09_menu_one_pick" />
+        <activity android:name=".user8_shopping_basket" />
+        <activity android:name=".User11_food_order" />
+        <activity android:name=".User14" />
+        <activity android:name=".User15" />
+        <activity android:name=".User16" />
+        <activity android:name=".User17" />
+        <activity android:name=".User18" />
+        <activity android:name=".User19" />
+        <activity android:name=".User20" />
+        <activity android:name=".User21" />
+        <activity android:name=".User22" />
+        <activity android:name=".user23_reviewlist" />
+        <activity android:name=".user24" />
+        <activity android:name=".user25" />
+        <activity android:name=".user26_reviewwrite"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="6dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/user15_img"
+        android:layout_width="58dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+
+        android:id="@+id/user15_name"
+        android:layout_width="217dp"
+        android:layout_height="40dp"
+        android:layout_weight="4"
+        android:text="매장이름" />
+
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/user15_star"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+</LinearLayout>

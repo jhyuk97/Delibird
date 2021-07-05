@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="공지사항"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_horizontal"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/user24_title"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_weight="1"
+            android:text="제목" />
+
+        <TextView
+            android:id="@+id/user24_date"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="2"
+            android:text="2020-07-18"
+            android:textSize="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.3dp"
+        android:background="#4682B4" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:layout_weight="3"
+        android:id="@+id/user24_contents"
+        android:text="aaaaaaaa\naaaaaaaaa\nbbbbbbbbbbb\nsdssdsdsd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            android:background="#00ff0000"
+            android:src="@drawable/iook"></ImageView>
+
+        <TextView
+            android:background="#00ff0000"
+            android:layout_weight="1"
+            android:textColor="#4E8DF5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center_horizontal"
+            android:text="DeliBird"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:background="#00ff0000"
+            android:layout_weight="1"
+            android:textColor="#4E8DF5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Log In"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+
+            android:orientation="horizontal">
+
+
+            <CheckBox
+                android:id="@+id/checkBox1234"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#4E8DF5"
+                android:checked="true"
+                android:text="사용자" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#4E8DF5"
+                android:text="점주" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#4E8DF5"
+                android:text="라이더" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <EditText
+
+                android:id="@+id/ID"
+                android:layout_width="258dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#4E8DF5"
+                android:hint="ID" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/PW"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#4E8DF5"
+                android:hint="PASSWORD"
+                android:inputType="textPassword" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="282dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:background="#4E8DF5"
+                android:text="로그인"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <Button
+
+                android:id="@+id/btn_find_id_passwd"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_gravity="top"
+                android:layout_weight="4"
+                android:background="#00ff0000"
+                android:text="아이디/비밀번호 찾기"
+                android:textColor="#4E8DF5"
+                android:textSize="11dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="174dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_weight="1"
+                android:background="#00ff0000"
+                android:gravity="center"
+                android:text="회원가입"
+                android:textColor="#4E8DF5"
+                android:textSize="11dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

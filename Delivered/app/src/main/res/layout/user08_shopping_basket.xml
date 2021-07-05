@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/wkdqkrnsl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="9"
+            android:gravity="center_horizontal"
+            android:text="장바구니"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DeleteAllItem"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="전체 삭제" />
+    </LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:id="@+id/MarketID"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="매장이름" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/qoekf"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="배달" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+
+        <ListView
+            android:layout_weight="1"
+            android:id="@+id/basketList"
+            android:layout_width="match_parent"
+            android:layout_height="463dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/chdrmador"
+            android:layout_width="123dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:text="총금액"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:id="@+id/Count_money"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="금액" />
+
+    </LinearLayout>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/pay"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#4E8DF5"
+
+            android:text="결제하기"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

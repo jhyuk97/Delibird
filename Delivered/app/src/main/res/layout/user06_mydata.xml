@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+<TableRow>
+
+
+    <Button
+        android:id="@+id/btn_editinfo1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:drawableTop="@drawable/user06_1"
+        android:gravity="center"
+        android:text="회원정보 변경"
+        android:textColor="#87898C"
+
+
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <Button
+            android:id="@+id/btn_orderlist"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+
+            android:drawableTop="@drawable/user06_2"
+            android:gravity="center"
+
+            android:text="주문 내역"
+            android:textColor="#87898C"
+
+            android:textSize="10dp"
+
+            android:textStyle="bold" />
+</TableRow>
+    </TableLayout>
+
+    <TableLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        android:orientation="horizontal">
+<TableRow>
+        <Button
+            android:id="@+id/btn_myreview"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:drawableTop="@drawable/user06_3"
+            android:gravity="center"
+            android:text="내 리뷰 보기"
+
+            android:textColor="#87898C"
+
+            android:textSize="10dp"
+
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_notice"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:drawableTop="@drawable/user06_4"
+
+            android:gravity="center"
+            android:text="공지사항"
+
+
+            android:textColor="#87898C"
+
+            android:textSize="10dp"
+
+            android:textStyle="bold" />
+</TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        android:orientation="horizontal">
+
+<TableRow>
+        <Button
+            android:id="@+id/btn_servicecenter"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:drawableTop="@drawable/user06_5"
+            android:gravity="center"
+            android:text="장바구니"
+            android:textColor="#87898C"
+
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_preference"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:drawableTop="@drawable/user06_6"
+            android:gravity="center"
+            android:text=" 환경설정 "
+            android:textColor="#87898C"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+</TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+<TableRow>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_homeinfo"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/border"
+            android:drawableTop="@drawable/user06_7"
+            android:gravity="center"
+            android:text=" 홈페이지 정보"
+            android:textColor="#87898C"
+
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_inquiry"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:drawableTop="@drawable/btn_inquiry12"
+            android:gravity="center"
+            android:text=" 앱 문의"
+            android:textColor="#87898C"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+</TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

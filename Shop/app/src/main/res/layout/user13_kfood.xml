@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gksrnrdmatlr"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="한식홍보 게시판"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+
+        <ListView
+            android:layout_weight="1"
+            android:id="@+id/user13_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+
+        <!-- 여기 서 부터 -->
+        <!-- 메뉴 추가 할수있게 해주는 건데 저걸 수량 을 증가 시키는것 을 하려면  id   를 각각 다 다르게 해서 java 클래스에서 코딩으로 해야하는데 ..? 이걸 메뉴하나 추가할때마다 복붙 겁나 하는건가?-->
+
+
+
+</LinearLayout>
